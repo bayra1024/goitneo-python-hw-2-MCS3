@@ -61,7 +61,7 @@ def main():
         user_input = input("Enter a command: ")
         command, *args = parse_input(user_input)
 
-        if command in ["close", "exit"]:
+        if command in ["close", "exit", "q"]:
             print("Good bye!")
             break
         elif command == "hello":
