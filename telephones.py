@@ -7,7 +7,7 @@ def input_error(func):
         except IndexError:
             return "Give me name please."
         except KeyError:
-            return "Give me name and phone please."
+            return "Contact not found."
 
     return inner
 
